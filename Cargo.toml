@@ -5,4 +5,5 @@ members = [
     "Chapter 3/variables",
     "Chapter 3/functions",
     "Chapter 3/branches",
+    "Chapter 3/loops",
 ]
