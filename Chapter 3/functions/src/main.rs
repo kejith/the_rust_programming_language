@@ -1,5 +1,5 @@
 fn main() {
-    print_labeled_measurement(5, 'h');
+    print_labeled_measurement(five(), 'h');
     codeblocks_are_expressions()
 }
 
@@ -17,4 +17,9 @@ fn codeblocks_are_expressions() {
     };
 
     println!("The value of y is: {y}");
+}
+
+// the last expression in a function will return itself
+fn five() -> i32 {
+    5
 }
